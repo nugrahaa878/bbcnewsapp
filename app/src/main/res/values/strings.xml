@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyNewsApp</string>
+    <string name="dummy_title">Indonesia reports 2,277 new coronavirus infections - Reuters India</string>
+    <string name="dummy_title_2">InfraDigital helps Indonesian schools digitize tuition and enrollment</string>
+    <string name="dummy_desc">In Indonesia, about half of adults are “underbanked,” meaning they don’t have access to bank accounts, credit cards and other traditional financial services. A growing list of tech companies are working on solutions, from Payfazz, which operates a network of ...</string>
+    <string name="back_to_home">Back to Home</string>
+</resources>

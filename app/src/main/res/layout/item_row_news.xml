@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:padding="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="20dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_news"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitCenter"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img_news"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:maxLines="3"
+        android:text="@string/dummy_title" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/img_news"
+        android:text="April 15, 2016 at 3:40 PM" />
+
+
+</RelativeLayout>

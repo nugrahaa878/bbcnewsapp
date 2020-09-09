@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.NewsDetailActivity">
+
+    <ImageView
+        android:id="@+id/img_detail"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jokowi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/img_detail"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:textColor="#2c3e50"
+        android:text="Reuters Editorial" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_author"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:text="@string/dummy_title_2"
+        />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        android:text="@string/dummy_desc"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ECF0F1"
+        android:text="@string/back_to_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_description"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
